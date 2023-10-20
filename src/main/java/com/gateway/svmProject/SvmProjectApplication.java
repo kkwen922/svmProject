@@ -1,0 +1,15 @@
+package com.gateway.svmProject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class SvmProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SvmProjectApplication.class, args);
+	}
+
+}
